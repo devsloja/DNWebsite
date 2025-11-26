@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="DN Soluções Web - Criação de websites institucionais e soluções digitais modernas para empresas.">
-    <title>DN Soluções Web | A Solução Digital</title>
+    <meta name="description" content="DN Soluções Web - Criação de websites em Rio Tinto, Gondomar. Desenvolvido por David Noverça.">
+    <meta name="author" content="David Noverça">
+    <title>DN Soluções Web | David Noverça</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     
+    <link rel="icon" type="image/png" href="favicon.png">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,10 +20,17 @@
     <header class="header">
         <div class="container nav-container">
             <a href="#" class="logo">DN Soluções Web<span class="dot">.</span></a>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
             <nav class="nav-menu">
-                <a href="#servicos">Serviços</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#contactos" class="btn-primary">Contactar</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#contactos" class="btn-primary nav-link">Contactar</a>
             </nav>
         </div>
     </header>
@@ -30,10 +40,63 @@
             <div class="container hero-content">
                 <h1 class="hero-title">
                     A Solução Digital para o <br>
-                    <span class="highlight">Próximo Passo</span> para o Seu Negócio.
+                    <span class="highlight">Próximo Passo</span> do Seu Negócio.
                 </h1>
                 <p class="hero-subtitle">
-                    Desenvolvemos websites institucionais, modernos e otimizados que posicionam a sua empresa no mapa digital. Tecnologia de ponta, design limpo e foco nos resultados.
+                    Desenvolvimento web a partir de Rio Tinto para o mundo. Sites institucionais modernos e otimizados que posicionam a sua empresa no mapa digital.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contactos" class="btn-primary">Pedir Orçamento</a>
+                    <a href="#servicos" class="btn-secondary">Ver Serviços</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>O Que Ofereço</h2>
+                    <p>Foco total na qualidade técnica e visual.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="icon-box">💻</div>
+                        <h3>Sites Institucionais</h3>
+                        <p>A montra digital da sua empresa. Desenvolvo páginas que transmitem credibilidade e apresentam os seus serviços de forma clara.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="icon-box">📱</div>
+                        <h3>Design Responsivo</h3>
+                        <p>Sites que funcionam perfeitamente em qualquer dispositivo, garantindo a melhor experiência no telemóvel e computador.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="icon-box">🚀</div>
+                        <h3>Performance & SEO</h3>
+                        <p>Código limpo e otimizado para que o seu site carregue rápido e apareça nas pesquisas do Google.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section bg-light">
+            <div class="container split-layout">
+                <div class="about-text">
+                    <h2>Olá, sou o David Noverça.</h2>
+                    <p>
+                        A operar a partir de <strong>Rio Tinto, Gondomar</strong>, a DN Soluções Web nasceu para ajudar empresas locais e nacionais a terem uma presença digital forte.
+                    </p>
+                    <p>
+                        Acredito que não basta ter um site; é preciso ter uma ferramenta que funcione. A minha abordagem combina design moderno com código robusto, garantindo um resultado final seguro e eficaz.
+                    </p>
+                </div>
+                <div class="about-visual">
+                    <div class="code-block">
+                        <code>
+                            <span class="code-tag">const</span> developer = {<br>
+                            &nbsp;&nbsp;nome
                 </p>
                 <div class="hero-actions">
                     <a href="#contactos" class="btn-primary">Pedir Orçamento Gratuito</a>
