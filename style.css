@@ -85,7 +85,7 @@ a { text-decoration: none; }
     backdrop-filter: blur(10px);
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     z-index: 1000;
-    padding: 15px 0; /* Ligeiro ajuste para acomodar o logo */
+    padding: 15px 0;
 }
 
 .nav-container {
@@ -94,19 +94,33 @@ a { text-decoration: none; }
     align-items: center;
 }
 
-/* --- CONFIGURAÇÃO DO LOGÓTIPO DE IMAGEM --- */
+/* --- CONFIGURAÇÃO DO LOGÓTIPO HÍBRIDO (Imagem + Texto) --- */
 .logo {
     display: flex;
     align-items: center;
+    gap: 12px; /* Espaço entre a imagem e o texto */
+    text-decoration: none;
 }
 
 .logo-image {
-    height: 55px; /* Altura ideal para Desktop */
+    height: 45px; /* Tamanho da imagem */
     width: auto;
     display: block;
     object-fit: contain;
 }
 
+.logo-text {
+    font-size: 1.35rem; /* Tamanho do texto */
+    font-weight: 700;
+    color: var(--text-color);
+    letter-spacing: -0.02em;
+}
+
+.dot {
+    color: var(--primary-color); /* O ponto final a azul */
+}
+
+/* --- Menu de Navegação --- */
 .nav-menu a {
     color: var(--text-color);
     margin-left: 30px;
@@ -283,10 +297,10 @@ a { text-decoration: none; }
     
     .btn-secondary { margin-left: 0; }
 
-    /* Ajuste do Logo no Mobile */
-    .logo-image {
-        height: 45px; 
-    }
+    /* Ajuste do Logo Híbrido no Mobile */
+    .logo-image { height: 35px; } /* Imagem um pouco menor */
+    .logo-text { font-size: 1.1rem; } /* Texto um pouco menor para caber */
+    .logo { gap: 8px; }
 
     /* Lógica do Menu Mobile */
     .hamburger {
