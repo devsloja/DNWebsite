@@ -1,19 +1,160 @@
-<header class="header">
-    <div class="container nav-container">
-        <a href="#" class="logo">
-            <img src="1764131086517.jpg" alt="DN Soluções Web" class="logo-image">
-        </a>
-        
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DN Soluções Web - David Noverça. Criação de websites institucionais e soluções digitais em Rio Tinto, Gondomar.">
+    <title>DN Soluções Web | David Noverça</title>
+    
+    <link rel="icon" type="image/png" href="favicon.png">
 
-        <nav class="nav-menu">
-            <a href="#servicos" class="nav-link">Serviços</a>
-            <a href="#sobre" class="nav-link">Sobre</a>
-            <a href="#contactos" class="btn-primary nav-link">Contactar</a>
-        </nav>
-    </div>
-</header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="DN Soluções Web | Desenvolvimento Web por David Noverça">
+    <meta property="og:description" content="Soluções digitais em Rio Tinto, Gondomar. Transformo ideias em websites modernos.">
+    <meta property="og:url" content="https://davidnoverca.github.io/dn-solucoes/">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="1764131086517.jpg" alt="DN Soluções Web" class="logo-image">
+            </a>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#contactos" class="btn-primary nav-link">Contactar</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <h1 class="hero-title">
+                    A Solução Digital para o <br>
+                    <span class="highlight">Próximo Passo</span> do Seu Negócio.
+                </h1>
+                <p class="hero-subtitle">
+                    Desenvolvimento web profissional por David Noverça. Websites institucionais modernos e otimizados que posicionam a sua empresa no mapa digital. Sediado em Gondomar, a trabalhar para o mundo.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contactos" class="btn-primary">Pedir Orçamento</a>
+                    <a href="#servicos" class="btn-secondary">Ver O Que Faço</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>O Que Ofereço</h2>
+                    <p>Qualidade técnica e visual para apresentar a sua empresa, sem complicações.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="icon-box">💻</div>
+                        <h3>Sites Institucionais</h3>
+                        <p>A montra digital da sua empresa. Desenvolvo páginas que transmitem credibilidade e apresentam os seus serviços de forma clara.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="icon-box">📱</div>
+                        <h3>Design Responsivo</h3>
+                        <p>O seu site funcionará perfeitamente em qualquer dispositivo, desde telemóveis a computadores.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="icon-box">🚀</div>
+                        <h3>Performance & SEO</h3>
+                        <p>Código limpo e otimizado para que o seu site carregue rapidamente e seja encontrado no Google.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section bg-light">
+            <div class="container split-layout">
+                <div class="about-text">
+                    <h2>Olá, sou o David Noverça.</h2>
+                    <p>
+                        A operar a partir de <strong>Rio Tinto, Gondomar</strong>, fundei a DN Soluções Web com um objetivo claro: ajudar empresas e profissionais a terem uma presença digital digna desse nome.
+                    </p>
+                    <p>
+                        Entendo que um website é um investimento estratégico, não um custo. Por isso, a minha abordagem foca-se na engenharia de performance e na utilidade, garantindo que o seu projeto digital se traduz numa ferramenta de crescimento e geração de lucros, e não apenas numa presença passiva.
+                    </p>
+                </div>
+                <div class="about-visual">
+                    <div class="code-block">
+                        <code>
+                            <span class="code-tag">const</span> developer = {<br>
+                            &nbsp;&nbsp;nome: <span class="code-string">"David Noverça"</span>,<br>
+                            &nbsp;&nbsp;foco: <span class="code-string">"Excelência Web"</span>,<br>
+                            &nbsp;&nbsp;local: <span class="code-string">"Gondomar, PT"</span><br>
+                            };
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contactos" class="section">
+            <div class="container text-center">
+                <h2>Vamos Conversar?</h2>
+                <p class="contact-intro">Estou pronto para colocar o seu projeto online. Entre em contacto direto comigo.</p>
+                
+                <div class="contact-links-container" style="margin-top: 40px; display: flex; flex-direction: column; gap: 20px; align-items: center;">
+                    
+                    <a href="mailto:Davidnoverca2@Gmail.com" class="contact-item" style="font-size: 1.1rem; color: var(--text-color);">
+                        ✉️ Davidnoverca2@Gmail.com
+                    </a>
+
+                    <a href="tel:+351911964511" class="contact-item" style="font-size: 1.1rem; color: var(--text-color);">
+                        📞 911 964 511
+                    </a>
+
+                    <div class="contact-item" style="font-size: 1.1rem; color: var(--text-light);">
+                        📍 Rio Tinto, Gondomar, Portugal
+                    </div>
+
+                    <div class="social-links" style="margin-top: 20px; display: flex; gap: 20px;">
+                        <a href="#" target="_blank" title="Instagram (Em breve)" style="opacity: 0.6; cursor: default;">
+                            Instagram (Em breve)
+                        </a>
+                        <a href="#" target="_blank" title="Facebook (Em breve)" style="opacity: 0.6; cursor: default;">
+                            Facebook (Em breve)
+                        </a>
+                    </div>
+
+                </div>
+                
+                <br><br>
+                <a href="mailto:Davidnoverca2@Gmail.com" class="btn-primary btn-large">Enviar Email Agora</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 DN Soluções Web - David Noverça.</p>
+            <p class="dev-credits">Desenvolvido em Rio Tinto para o Mundo.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
