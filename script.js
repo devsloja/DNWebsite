@@ -9,13 +9,13 @@ hamburger.addEventListener("click", () => {
     navMenu.classList.toggle("active");
 });
 
-// 2. Fechar o menu automaticamente quando se clica num link (essencial em telemóvel)
+// 2. Fechar o menu automaticamente quando se clica num link
 navLinks.forEach(n => n.addEventListener("click", () => {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }));
 
-// 3. Adicionar uma sombra suave no Header quando fazes scroll para baixo
+// 3. Adicionar sombra suave no Header ao fazer scroll
 window.addEventListener("scroll", () => {
     if (window.scrollY > 50) {
         header.style.boxShadow = "0 2px 10px rgba(0,0,0,0.1)";
